@@ -1,0 +1,26 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background: #78584C;
+}
+.card{
+  width: 300px;
+  height: 450px;
+  border-radius: 40px 10px 40px 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  overflow: hidden;
+  box-shadow: 2px 2px 24px rgba(32, 32, 32, 0.863);
+}
+.card img{
+  width: 300px;
+  height: 450px;
+  border-radius: 6px;
+  transition: all 1.5s ease-in-out;
+}
+.card:hover img{
+  transform: rotate(360deg) scale(3.5);
+}
